@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+header {
+  margin: 2rem 2.1rem 0 2.1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-container a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 0.5rem;
+}
+.title-container a img {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.title-container a .main-title {
+  color: #1f2937;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.1rem;
+}
+.sub-container ul {
+  gap: 2.1rem;
+  display: flex;
+  list-style: none;
+}
+.sub-container ul li a {
+  color: #4b5563;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.sub-container .start-now-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 3.75rem;
+  background-color: #21c05c;
+  color: #ffffff;
+  border-radius: 0.375rem;
+  border: 1px solid #21c05c;
+  padding: 0.625rem 1.875rem;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.header-divider {
+  border: none;
+  border-bottom: 0.0625rem solid #b4aeae;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 2.1rem;
+  margin-right: 2.1rem;
+  width: calc(100% - 4.2rem);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem 1.25rem 6.25rem 3.125rem;
+  gap: 3rem;
+}
+.hero-section .hero-image {
+  height: 28.25rem;
+  width: 28.25rem;
+}
+
+.hero-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+
+.hero-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 42.5rem;
+}
+.hero-texts .hero-title {
+  max-width: 100%;
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  letter-spacing: 0;
+}
+.hero-texts .hero-text {
+  color: #4b5563;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+}
+.hero-actions a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  padding: 2rem 1.25rem;
+  width: 12rem;
+  height: 3.75rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid transparent;
+}
+.hero-actions a img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.hero-actions .donate-button {
+  color: #ffffff;
+  background-color: #16a34a;
+}
+.hero-actions .acquire-button {
+  color: #2563eb;
+  background-color: transparent;
+  border-color: #2563eb;
+}
+
+/*# sourceMappingURL=style.css.map */
