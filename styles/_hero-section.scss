@@ -1,0 +1,83 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem 1.25rem 6.25rem 3.125rem;
+  gap: 3rem;
+
+  .hero-image {
+    height: 28.25rem;
+    width: 28.25rem;
+  }
+}
+
+.hero-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+
+.hero-texts {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+
+  width: 42.5rem;
+
+  .hero-title {
+    max-width: 100%;
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #1f2937;
+    letter-spacing: 0;
+  }
+
+  .hero-text {
+    color: #4b5563;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+  }
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.5rem;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    text-decoration: none;
+    padding: 2rem 1.25rem;
+
+    width: 12rem;
+    height: 3.75rem;
+
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 400;
+
+    border: 1px solid transparent;
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  .donate-button {
+    color: #ffffff;
+    background-color: #16a34a;
+  }
+
+  .acquire-button {
+    color: #2563eb;
+    background-color: transparent;
+    border-color: #2563eb;
+  }
+}
