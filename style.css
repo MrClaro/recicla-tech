@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
+  color: #4b5563;
 }
 
 header {
@@ -186,6 +187,121 @@ nav {
   color: #4b5563;
   font-weight: 400;
   font-size: 1rem;
+}
+
+.how-works-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 62.625rem;
+  margin: 6.875rem auto 7.1rem auto;
+}
+
+.how-works-section-texts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-self: flex-start;
+  width: 100%;
+  gap: 1.375rem;
+  margin-bottom: 5.625rem;
+}
+.how-works-section-texts h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+.how-works-section-texts .section-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #1f2937;
+}
+
+.how-works-types {
+  display: flex;
+  gap: 1.375rem;
+}
+
+.type-card {
+  width: 30.625rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f5f8;
+  border-radius: 0.5rem;
+  gap: 1.5rem;
+  padding: 2.5rem;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+.card-header h3 {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+}
+.card-header .donor-title {
+  color: #16a34a;
+}
+.card-header .acqurires-title {
+  color: #2563eb;
+}
+.card-header img {
+  width: 3.375rem;
+  height: 3.375rem;
+}
+
+.card-description {
+  text-align: left;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.steps-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.813rem;
+}
+.steps-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.steps-list li .step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.steps-list li .donor-number {
+  background-color: #16a34a;
+}
+.steps-list li .acquires-number {
+  background-color: #2563eb;
+}
+.steps-list li .step-title {
+  color: #09090b;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.steps-list li .step-description {
+  color: #4b5563;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.steps-list li div {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
