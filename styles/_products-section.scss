@@ -1,0 +1,113 @@
+$primary-color: #1f2937;
+
+.products-section {
+  background-color: #f3f5f8;
+  width: 100%;
+}
+
+.products-section-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 62.625rem;
+  margin: 6.875rem auto 7.1rem auto;
+  padding: 3.125rem;
+}
+
+.products-section-texts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-self: flex-start;
+  width: 100%;
+  gap: 1.375rem;
+  margin-bottom: 5.625rem;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $primary-color;
+  }
+
+  .section-subtitle {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: $primary-color;
+  }
+}
+
+.products-category-wrapper {
+  display: flex;
+  gap: 3rem;
+  align-items: stretch;
+
+  .category {
+    flex: 1;
+    max-width: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #16a34a;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .image-container {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f9fafb;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      display: block;
+    }
+
+    h4 {
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      font-size: 1.25rem;
+      color: #09090b;
+      margin: 1.5rem 0 0.5rem 0;
+      padding: 0 1rem;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+      color: #4b5563;
+      text-align: center;
+      padding: 0 1rem;
+      margin: 0;
+      flex-grow: 1;
+    }
+
+    a {
+      margin: 1.5rem 0;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 9.375rem;
+      height: 2.313rem;
+      border: 1px solid #21c05c;
+      border-radius: 6px;
+      color: #ffffff;
+      background-color: #16a34a;
+      font-weight: 400;
+      font-family: "Inter", sans-serif;
+      font-size: 0.875rem;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #15803d;
+      }
+    }
+  }
+}
