@@ -15,23 +15,89 @@
   .data-content {
     width: auto;
     box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     gap: 0.5rem;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+
+      .data-title {
+        color: #15803d;
+      }
+    }
   }
 
   .data-title {
     color: #16a34a;
     font-weight: 700;
     font-size: 2.5rem;
+    transition: color 0.3s ease;
   }
 
   .data-text {
     color: #4b5563;
     font-weight: 400;
     font-size: 1rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .data-section {
+    padding: 0 1.5rem;
+    height: auto;
+    min-height: 11.25rem;
+  }
+
+  .data-content-wrapper {
+    gap: 8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .data-section {
+    padding: 2.5rem 1.25rem;
+    height: auto;
+  }
+
+  .data-content-wrapper {
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+
+    .data-content {
+      width: 100%;
+    }
+
+    .data-title {
+      font-size: 2.25rem;
+    }
+
+    .data-text {
+      font-size: 0.9375rem;
+    }
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .data-section {
+    padding: 2rem 1rem;
+  }
+
+  .data-content-wrapper {
+    gap: 2rem;
+
+    .data-title {
+      font-size: 2rem;
+    }
+
+    .data-text {
+      font-size: 0.875rem;
+    }
   }
 }
